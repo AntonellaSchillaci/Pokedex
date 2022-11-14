@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,700&display=swap');
+body {
+    background-color: rgb(207, 196, 196); 
+    background-image: linear-gradient(to right, rgb(207, 196, 196) , rgb(202, 219, 157));
+    font-family: rubik;
+    font-family: 'Merriweather', serif;
+}
+.cardPoke {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.loading {
+    display: none;
+    
+}
+
+.loading img {
+    width: 250px;
+    margin-left: 100px;
+    display:flex;
+    align-items: center;
+
+}
+
+.loading p {
+    font-weight: bold;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+}
+
+.active {
+    display: block;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(47, 51, 145); 
+    background-image: linear-gradient(rgb(47, 51, 145), rgb(240, 190, 29));
+  }
+    
+.hero img {
+    width: 500px;
+    opacity:unset;
+}
+
+.title {
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    color: rgb(249, 195, 71);
+    text-shadow: -2px 0 #0000ff, 0 2px #0000ff, 2px 0 #0000ff, 0 -2px #0000ff; 
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px 5px rgb(149, 145, 145);
+}
+
+.card:hover {
+    border: solid 1px black;
+    cursor: pointer;
+    width: 220px;
+    height: 320px;
+} 
+
+.card img {
+    max-width: 50%;
+    height: 40%;
+    padding: 10px 0;
+}
+
+.pokemon-id {
+    margin: 0;
+    background-color: rgba(156, 150, 150, 0.466);
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+.card h1 {
+    font-size: 30px;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.pokemon-type {
+    padding-bottom: 10px;
+    font-size: medium;
+}
+.footer {
+  background: rgb(40, 38, 38);
+  color: white;
+  padding: 20px;
+  margin: 25px 0;
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  background: rgb(40, 38, 38);
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.ice {
+    background: #98d8d8;
+  }
+
+.ice:hover {
+    border: solid 2px #00dcdc;
+}
+  
+  .ghost {
+    background: #705898;
+  }
+
+  .ghost:hover {
+    border: solid 2px #5f00f9;
+  }
+  
+  .grass {
+    background: #defde0;
+  }
+
+  .grass:hover {
+    border: solid 2px #05eb14;
+  }
+  
+  .fire {
+    background: #fddfdf;
+  }
+  
+  .fire:hover {
+    border: solid 2px #fb0000;
+  }
+  .normal {
+    background: #f5f5f5;
+  }
+
+  .normal:hover {
+    border: solid 2px #000000;
+  }
+  
+  .fighting {
+    background: #e6e0d4;
+  }
+
+  .fighting:hover {
+    border: solid 2px #dd9300;
+  }
+  
+  .flying {
+    background: #f5f5f5;
+  }
+
+  .flying:hover {
+    border: solid 2px #4a0000;
+  }
+  
+  .psychic {
+    background: #eaeda1;
+  }
+
+  .psychic:hover {
+    border: solid 2px #e0e800;
+  }
+  
+  .dragon {
+    background: #97b3e6;
+  }
+
+  .dragon:hover {
+    border: solid 2px #004fe2;
+  }
+  
+  .bug {
+    background: #f8d5a3;
+  }
+
+  .bug:hover {
+    border: solid 2px #c07102;
+  }
+  
+  .poison {
+    background: #98d7a5;
+  }
+
+  .poison:hover {
+    border: solid 2px #00b925;
+  }
+  
+  .fairy {
+    background: #fceaff;
+  }
+
+  .fairy:hover {
+    border: solid 2px #d100f6;
+  }
+  
+  .electric {
+    background: #fcf7de;
+  }
+
+  .electric:hover {
+    border: solid 2px #ffde39;
+  }
+  
+  .water {
+    background: #def3fd;
+  }
+
+  .water:hover {
+    border: solid 2px #42bdf6;
+  }
+  
+  .ground {
+    background: #f4e7da;
+  }
+  
+  .ground:hover {
+    border: solid 2px #b68655;
+  }
+  .rock {
+    background: #d5d5d4;
+  }
+
+  .rock:hover {
+    border: solid 2px #a6a636;
+  }
+
+
+/* Tablet */
+@media only screen and (min-width: 768px) {
+    .loading img {
+        width: 250px;
+        margin-left: 280px;
+        
+    
+    } 
+
+}
+
+
+/* Desktop */
+@media only screen and (min-width: 1280px) {
+    .loading img {
+        width: 250px;
+        margin-left: 580px;
+        display:flex;
+        align-items: center;
+    
+    }
+
+
+
+}
+
